@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+nav{
+    background-color: #1ab7b7;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav >ul{
+    text-decoration: none;
+    list-style: none;
+
+}
+
+main{
+    width: 100%;
+    margin: 40px auto;
+
+}
+
+button[type="submit"]{
+    background-color: #1ab759;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="Edit"]{
+    background-color: #49128d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="Delete"]{
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
